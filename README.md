@@ -30,7 +30,8 @@ camera.CFrame = CFrame.new(player.Character.HumanoidRootPart.CFrame.p + Vector3.
 
 ## Pro tip!
 
-Change the FOV of the camera to make it look more Isometric like if you are making a Isometric camera
+Change the FOV of the camera to make it look more Isometric like if you are making a Isometric camera.
+Also Change the Vector3 of the camera to make it go far back
 ```luau
 camera.FieldOfView = 20
 camera.CFrame = CFrame.new(player.Character.HumanoidRootPart.CFrame.p + Vector3.new(50, 50, 50), player.Character.HumanoidRootPart.CFrame.p)
